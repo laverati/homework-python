@@ -9,7 +9,7 @@ def stroka_1(num):
     return stroka
 
 
-print(stroka_1(12))
+print(stroka_1(13))
 
 
 def stroka_2(stroka):
@@ -29,7 +29,7 @@ def stroka_2(stroka):
             return -1
 
 
-print(stroka_2(stroka_1(4)))
+print(stroka_2(stroka_1(23)))
 
 
 def stroka_3(length, num):
@@ -39,7 +39,7 @@ def stroka_3(length, num):
     return list_
 
 
-print(stroka_3(4, 3))
+print(stroka_3(8, 12))
 
 
 def stroka_4(argument):
@@ -70,4 +70,4 @@ def stroka_4(argument):
     print(mid_num)
 
 
-stroka_4(stroka_3(5, 10))
+stroka_4(stroka_3(1, 4))
